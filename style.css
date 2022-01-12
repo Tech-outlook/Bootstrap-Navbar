@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bree serif" !important;
+}
+.navbar-brand {
+  font-size: 30px;
+  background: black;
+  color: gold !important;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.navbar {
+  padding-left: 40px !important;
+}
+#TOL-navbar {
+  background: lightgoldenrodyellow !important;
+}
+
+.nav-link {
+  border: 1px solid transparent;
+  margin: 0px 5px;
+  font-size: 20px;
+  color: black !important;
+}
+.nav-link:hover {
+  background: white;
+  color: green !important;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.nav-social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-social-icons a i {
+  font-size: 30px;
+  margin: 0px 10px;
+}
+.nav-social-icons .facebook {
+  color: blue;
+  cursor: pointer;
+}
+.nav-social-icons .instagram {
+  color: #8a3ab9;
+  cursor: pointer;
+}
+.nav-social-icons .youtube {
+  color: red;
+  cursor: pointer;
+}
+.nav-social-icons .twitter {
+  color: blue;
+  cursor: pointer;
+}
+
+@media (max-width: 858px) {
+  .navbar {
+    padding-left: 10px !important;
+  }
+  .nav-link {
+    text-align: center;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .nav-social-icons i{
+      margin: 0px 20px;
+  }
+}
